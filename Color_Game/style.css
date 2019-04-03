@@ -1,0 +1,45 @@
+body {
+    background: mintcream;
+    margin: 0;
+    transition: 0.7s;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+    color: white;
+}
+
+.pane {
+    width: 20%;
+    padding-bottom: 20%;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 2%;
+    float: left;
+    background: #232323;
+    transition: 0.5s;
+}
+
+#heading {
+    background: #232323;
+    text-align: center;
+}
+
+#refresh {
+    background: none;
+    border: none;
+    color: blueviolet;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#refresh:hover {
+    background: mintcream;
+    transition: 0.5s;
+}
+
+#container {
+    margin: 40px auto;
+    max-width: 800px;
+}
