@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 3 Worksheet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+        p {
+            font-weight: bold;
+        }
+
+        .step:nth-child(odd) {
+            background: #ffcccc;
+        }
+
+        .step:nth-child(even) {
+            background: #99ccff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Learning Milestone Worksheet</h1>
+        <div class="row d-flex justify-content-around">
+            <div class="step col-12 card my-2">
+                <p>Step 1</p>
+                <ol>
+                    <li>Ask user to choose from 3 types of quizzes (+, -, *) with <i>prompt()</i></li>
+                    <li>Declare variable: <i>operation</i> to store the input</li>
+                    <li>Declare variable: <i>score</i> and set it to 0</li>
+                    <li>Declare 4 variables: <i>num1, num2, ans, userAns</i></li>
+                </ol>
+            </div>
+
+            <div class="step col-12 card my-2">
+                <p>Step 2</p>
+                <ol>
+                    <li>Select 2 random numbers using <i>Math.random() * 10</i></li>
+                    <li>Use <i>Math.round()</i> to round numbers to integer</li>
+                    <li>Assign numbers into <i>num1</i> and <i>num2</i></li>
+                </ol>
+            </div>
+
+            <div class="step col-12 card my-2">
+                <p>Step 3</p>
+                <ol>
+                    <li>Detect question type</li>
+                    <li>Set <i>ans</i> variable according to question</li>
+                    <li>Ask question using <i>prompt()</i> and store it to <i>userAns</i></li>
+                </ol>
+            </div>
+
+            <div class="step col-12 card my-2">
+                <p>Step 4</p>
+                <ol>
+                    <li>Check answer</li>
+                    <li>If correct, add 1 to <i>score</i> and inform user through <i>console.log()</i></li>
+                    <li>Else, minus 1 from <i>score</i> and inform user through <i>console.log()</i></li>
+                </ol>
+            </div>
+
+            <div class="step col-12 card my-2">
+                <p>Step 5</p>
+                <ol>
+                    <li>Repeat for at least 20 questions</li>
+                    <li>Stop the loop if the user click <b>Cancel</b></li>
+                </ol>
+            </div>
+
+            <div class="step col-12 card my-2">
+                <p>Step 6</p>
+                <ol>
+                    <li>Display total <i>score</i> with <i>alert()</i></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
