@@ -5,34 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.core.min.js"></script>
     <title>Greeting Card</title>
 </head>
 
 <body>
-    <div>
-        <div>
+    <div class="container-fluid">
+        <div class="d-flex text-center justify-content-center mt-5">
             <div class="card">
-                <div class="front">
+                <div class="front d-flex flex-column justify-content-center">
                     <h3>To: Chong Wei</h3>
                     <p>Click to open the card</p>
-                    <img id="front-cover"
+                    <img id="front-cover" class="img-fluid align-self-center"
                         src="https://www.birthdaywishes.expert/wp-content/uploads/2017/04/Birthday-wish-with-cute-background-with-cup-cake-and-garlands.jpg"
                         width="250px">
                 </div>
 
-                <div class="back">
-                    <img src="http://www.lovethispic.com/uploaded_images/290161-My-Friends...thank-You-For-Being-Such-A-Great-Friend-.gif"
+                <div class="back d-flex flex-column p-5 ">
+                    <img class="card-image-top align-self-center"
+                        src="http://www.lovethispic.com/uploaded_images/290161-My-Friends...thank-You-For-Being-Such-A-Great-Friend-.gif"
                         width="250px">
-                    <p>
+                    <p class="card-text p-1 mt-3 flex-fill">
                         Thank you for always being there for me and all of your encouragement.
                         I just want you to know that you are truly a great friend and hold a special place in
                         my heart.
                         <br>
                         In this special day, I would like to wish you:
                     </p>
-                    <p><b>Happy Birthday!!!</b></p>
-                    <p>From: Wen Cong</p>
+                    <p class="card-title"><b>Happy Birthday!!!</b></p>
+                    <p class="card-text align-self-end">From: Yet Phing</p>
                 </div>
             </div>
         </div>

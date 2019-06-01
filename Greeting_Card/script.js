@@ -1,6 +1,8 @@
+// Include Howler.js into your project
+
 /*
 ==================================================
-1. Create a new Howl object and name it as song
+Create a new Howl object
 ==================================================
 */
 
@@ -10,7 +12,10 @@
 
 /*
 ==================================================
-1. Get all the necessary DOM: .card, .front, .back
+Get all necessary DOM:
+1. class .card
+2. class .front
+3. class .back
 ==================================================
 */
 
@@ -19,15 +24,21 @@
 
 /*
 ==================================================
-1. Create a variable named isOpen to keep track
-    of current card status
+Create a variable isOpen and set the value to false
 ==================================================
 */
 
 
 /*
 ==================================================
-1. Attach click event handler to .card
+Attach click event handler to .card:
+1. If the card is open
+    - remove class .open from .front
+    - stop the playing song
+2. Else if the card is close
+    - add class .open to .front
+    - set timeout to play the song after 1 second
+3. Toggle variable isOpen
 ==================================================
 */
 
