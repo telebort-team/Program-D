@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    transition: 0.3s;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1, #rgbText {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.pane {
+    width: 13%;
+    padding-bottom: 13%;
+    margin: 1%;
+    background-color: #232323;
+    transition: 0.3s;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Colour Battle!</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>Colour Battle!</h1>
+            <h2>Look for this colour:</h2>
+            <div>
+                <h3 id="rgbText">
+                    RGB(0, 0, 0)
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="form-group form-inline">
+            <label class="lead" for="scoreText">Score:</label>
+            <textarea id="scoreText" class="form-control text-center ml-1 mr-3" rows="1" cols="7" style="resize: none"
+                readonly></textarea>
+        </div>
+
+        <div class="form-group form-inline">
+            <label class="lead" for="errorText">Error:</label>
+            <textarea id="errorText" class="form-control text-center ml-1 mr-3" rows="1" cols="7" style="resize: none"
+                readonly></textarea>
+        </div>
+
+        <div class="form-group form-inline">
+            <label class="lead" for="timeText">Time used:</label>
+            <textarea id="timeText" class="form-control text-center ml-1 mr-1" rows="1" cols="7" style="resize: none"
+                readonly></textarea>
+            <label class="lead" for="timeText">seconds</label>
+        </div>
+    </div>
+
+    <p>Press Space to start and skip to next colour.</p>
+    <div>
+        <div>
+            <div>
+                <div class="pane rounded border border-dark"></div>
+                <div class="pane rounded border border-dark"></div>
+                <div class="pane rounded border border-dark"></div>
+                <div class="pane rounded border border-dark"></div>
+            </div>
+            <div>
+                <div class="pane rounded border border-dark"></div>
+                <div class="pane rounded border border-dark"></div>
+                <div class="pane rounded border border-dark"></div>
+                <div class="pane rounded border border-dark"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

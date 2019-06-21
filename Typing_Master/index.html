@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Typing Master</title>
+</head>
+
+<body>
+    <div>
+        <h1>Typing Master</h1>
+        <p>
+            <b>Instruction: </b>
+            Follow and type in the sentence below.<br>
+            This game is case-insensitive, so no need to worry about capital letters, backspace is
+            not required.<br>
+            Any keys that is not the current alphabet will contribute to error, so do not use Caps Lock.
+        </p>
+
+        <div class="d-flex flex-row justify-content-center mt-5">
+            <div class="form-group form-inline">
+                <label class="lead" for="timeText">Time:</label>
+                <textarea id="timeText" class="form-control text-center ml-1 mr-3" rows="1" cols="7"
+                    style="resize: none" readonly></textarea>
+            </div>
+
+            <div class="form-group form-inline">
+                <label class="lead" for="apmText">APM:</label>
+                <textarea id="apmText" class="form-control text-center ml-1 mr-3" rows="1" cols="7" style="resize: none"
+                    readonly></textarea>
+            </div>
+
+            <div class="form-group form-inline">
+                <label class="lead" for="errorText">Error:</label>
+                <textarea id="errorText" class="form-control text-center ml-1 mr-3" rows="1" cols="7"
+                    style="resize: none" value="0" readonly></textarea>
+            </div>
+
+            <div class="form-group form-inline">
+                <label class="lead" for="accText">Accuracy:</label>
+                <textarea id="accText" class="form-control text-center ml-1 mr-3" rows="1" cols="7" style="resize: none"
+                    value="0" readonly></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <p class="lead">
+            <span id="doneSpan" class="p-0 m-0" style="color:yellow;"></span><span id="yetSpan" class="p-0 m-0"
+                style="color:white"></span>
+        </p>
+    </div>
+
+    <div id="keyboard">
+        <div class="first-row d-flex flex-row justify-content-center">
+            <div class="key p-4">Q</div>
+            <div class="key p-4">W</div>
+            <div class="key p-4">E</div>
+            <div class="key p-4">R</div>
+            <div class="key p-4">T</div>
+            <div class="key p-4">Y</div>
+            <div class="key p-4">U</div>
+            <div class="key p-4">I</div>
+            <div class="key p-4">O</div>
+            <div class="key p-4">P</div>
+        </div>
+        <div class="second-row d-flex flex-row justify-content-center">
+            <div class="key p-4">A</div>
+            <div class="key p-4">S</div>
+            <div class="key p-4">D</div>
+            <div class="key p-4">F</div>
+            <div class="key p-4">G</div>
+            <div class="key p-4">H</div>
+            <div class="key p-4">J</div>
+            <div class="key p-4">K</div>
+            <div class="key p-4">L</div>
+        </div>
+        <div class="third-row d-flex flex-row justify-content-center">
+            <div class="key p-4">Z</div>
+            <div class="key p-4">X</div>
+            <div class="key p-4">C</div>
+            <div class="key p-4">V</div>
+            <div class="key p-4">B</div>
+            <div class="key p-4">N</div>
+            <div class="key p-4">M</div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
