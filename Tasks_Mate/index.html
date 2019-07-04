@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Include Bootstrap here -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Tasks Mate</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron p-3 text-center">
+        <h1>Tasks Mate</h1>
+        <div>
+          <div class="d-flex flex-column flex-lg-row justify-content-around">
+            <label for="color1" class="col-12 col-lg-2 col-form-label"
+              >Select color 1:
+            </label>
+            <input type="color" class="mr-auto form-control" id="color1" />
+            <label for="color2" class="col-12 col-lg-2 col-form-label"
+              >Select color 2:
+            </label>
+            <input type="color" class="form-control" id="color2" />
+          </div>
+          <div class="d-flex flex-row mt-3 justify-content-center">
+            <label for="">Direction: </label>
+            <button
+              id="topdownButton"
+              class="btn btn-lg border-0 p-3 mx-2"
+              style="background: linear-gradient(white, black)"
+            ></button>
+            <button
+              id="leftrightButton"
+              class="btn btn-lg border-0 p-3 mx-2"
+              style="background: linear-gradient(to right, white, black)"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column align-items-center">
+      <div class="w-75">
+        <ul id="listUl" class="list-group">
+          <!-- TODO -->
+
+          <div class="d-flex">
+            <span class="bg-danger text-white list-group-item">X</span>
+            <li class="list-group-item flex-fill">Testing</li>
+          </div>
+        </ul>
+        <div>
+          <input
+            id="newText"
+            type="text"
+            class="form-control hide"
+            placeholder="Write your task here, press Enter to add."
+          />
+          <button id="addButton" class="btn btn-primary btn-block">
+            Add new todo
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="gradient.js"></script>
+  </body>
+</html>
