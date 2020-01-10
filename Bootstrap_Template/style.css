@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+    transition: 0.3s;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+img{
+    border: 1px solid black;
+}
+
+.table-bordered{
+    border: 1px solid #000000 !important;
+}
+
+.background{
+    background-color: green;
+}
+
+.pane {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
