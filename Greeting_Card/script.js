@@ -1,5 +1,4 @@
-// Include Howler.js into your project
-
+// Include Bootstrap and Howler.js into your project
 /*
 ==================================================
 Create a new Howl object
@@ -22,6 +21,7 @@ Get all necessary DOM:
 
 
 
+
 /*
 ==================================================
 Create a variable isOpen and set the value to false
@@ -29,16 +29,17 @@ Create a variable isOpen and set the value to false
 */
 
 
+
 /*
 ==================================================
 Attach click event handler to .card:
 1. If the card is open
-    - remove class .open from .front
+    - remove class .open from .front using DOM properties
     - stop the playing song
-2. Else if the card is close
-    - add class .open to .front
+   Else if the card is close
+    - add class .open to .front using DOM properties
     - set timeout to play the song after 1 second
-3. Toggle variable isOpen
+2. Toggle variable isOpen
 ==================================================
 */
 
