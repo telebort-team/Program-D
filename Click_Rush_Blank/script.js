@@ -3,7 +3,9 @@
 
 
 
+
 // State the important variables
+
 
 
 
@@ -32,6 +34,15 @@
 
 
 //Stop game function
+
+
+
+
+
+
+
+//Generate quote function
+
 
 
 
